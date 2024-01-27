@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "page">
+        <div class = "form">
+            <label for="first_name" class = "label">First Name</label>
+            <div class = "label">Last Name</div>
+            <div><input type="text" class = "input-field" id = "first_name" placeholder="Enter First Name..."></div>
+            <div><input type="text" class = "input-field" placeholder="Enter Last Name..."></div>
+
+            <div class = "label">Email</div>
+            <div class = "label">Job Role</div>
+            <div><input type="email" class = "input-field" placeholder="Enter E-mail..."></div>
+            <div>
+                <select name="" id=""  class = "input-field" placeholder="Select Job Role">
+                    <option value="Developer">Developer</option>
+                    <option value="SDE">SDE</option>
+                    <option value="HR">HR</option>
+                    <option value="Manager">Manager</option>
+                    <option value="special role">special role</option>
+                </select>
+            </div>
+
+            <div class = "address">Enter Address</div>
+            <div class = "address-input-div"><input type="text" class = "address-input"  placeholder="Enter Complete Address..."></div>
+
+            <div class = "label">City</div>
+            <div class = "label">Pincode</div>
+            <div><input type="text" class = "input-field" placeholder="Enter your Current City..."></div>
+            <div><input type="number" class = "input-field"  placeholder="Enter Pincode"></div>
+
+            <div class = "label">Start Date</div>
+            <div class = "label">Upload CV</div>
+            <div><input type="date" class = "input-field"></div>
+            <div><input type="file" class = "input-field" id = "cv-input"></div>
+            
+        </div>
+        <div id = "submit-button-div">
+            <input type="submit" id = "submit-button">
+            <div id = "Warning">
+                <p>You are about to submit, please check the details.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
